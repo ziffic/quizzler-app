@@ -30,3 +30,9 @@ class QuizBrain:
 
         print(f"Your current score is: {self.score}/{self.question_number}")
         print("\n")
+
+    def true_pressed(self):
+        self.check_answer("true")
+
+    def false_pressed(self):
+        self.check_answer("false")
